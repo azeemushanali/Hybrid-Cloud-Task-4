@@ -1,5 +1,6 @@
 # Hybrid-Cloud-Task-4
 Hello and welcome to all.In this article we will be getting some hands on knowledge over some of the leading technology and that is Cloud Computing with Automation by Terraform. Before moving on further with the task let us first understand the agenda.
+
 This is the hands on task which will do following things -
 1. Write an Infrastructure as code using terraform, which automatically create a VPC.
 2. In that VPC we have to create 2 subnets:
@@ -13,3 +14,5 @@ This is the hands on task which will do following things -
 8. Launch an ec2 instance which has MySQL setup already with security group allowing port 3306 in private subnet so that our WordPress VM can connect with the same. Also attach the key with the same.
 Note: WordPress instance has to be part of public subnet so that our client can connect our site.MySQL instance has to be part of private subnet so that outside world can't connect to it.
 Don't forgot to add auto IP assign and auto DNS name assignment option to be enabled.
+
+![Output](https://github.com/azeemushanali/Hybrid-Cloud-Task-4/blob/master/images/Screenshot%20(46).png?raw=true)
